@@ -428,7 +428,7 @@ def main(argv):
                          cca_training = args.cca_training)
     net = net.to(device)
 
-    train_dataset = ImageFolder(args.dataset, split="test", transform=train_transforms)
+    train_dataset = ImageFolder(args.dataset, split="train", transform=train_transforms)
     test_dataset = ImageFolder(args.dataset, split="test", transform=test_transforms)
 
     if args.cuda and torch.cuda.device_count() > 1:
