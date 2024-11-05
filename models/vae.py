@@ -328,7 +328,7 @@ class LICAutoencoder(CompressionModel):
         em_dim = 224, 
         ae_layers = [4, 4, 4],
         em_layers = 4,
-        cca_training = True
+        cca_training = False
     ):
         super().__init__()
 
