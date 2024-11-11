@@ -213,10 +213,10 @@ def main(argv):
     print(f'average_PSNR: {PSNR:.2f}dB')
     print(f'average_MS-SSIM: {MS_SSIM:.4f}')
     print(f'average_Bit-rate: {Bit_rate:.3f} bpp')
-    print(f'average_time: {total_time:.3f} ms')
+    print(f'average_time: {total_time:.3f} s')
     if args.real:
-        print(f'encoding_time: {enc_time:.3f} ms')
-        print(f'decoding_time: {dec_time:.3f} ms')
+        print(f'encoding_time: {enc_time:.3f} s')
+        print(f'decoding_time: {dec_time:.3f} s')
     
 
 if __name__ == "__main__":
