@@ -61,6 +61,8 @@ CUDA_VISIBLE_DEVICES='0' python eval.py --checkpoint [path of the pretrained che
 Note that we train $\lambda$ = {0.3, 0.85, 1.8, 3.5} models with $\lambda$ = 0.3 at the beginning, and adapt them using target
 $\lambda$ values after decaying the learning-rate; while $\lambda$ = {7, 15} with $\lambda$ = 2 at the beginning. This training strategy helps our proposed CCA-loss adjust the contextual information.
 
+> ⚠️ `beta` in the code corresponds to `lambda` in the paper.
+
 | Lambda (Link) | [0.3](https://drive.google.com/file/d/1gAUvZKKzlh0Tuo22kTMIxNmUZlXogpRO/view?usp=drive_link) | [0.85](https://drive.google.com/file/d/1K3veWSXFtANS71LY-ksiMXiNjIqL_mL1/view?usp=drive_link) | [1.8](https://drive.google.com/file/d/17KRA3NYxuNyszhIIR9HGC0ODPx9HcDyB/view?usp=sharing) | [3.5](https://drive.google.com/file/d/1gION784PtjcxAzIgdb-eSjhuZkeG9z_l/view?usp=sharing) |
 | ------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 
