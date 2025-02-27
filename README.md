@@ -85,11 +85,13 @@ Other pretrained models will be released successively.
 ## Citation
 
 ```
-@article{han2024causal,
+@article{han2025causal,
   title={Causal Context Adjustment Loss for Learned Image Compression},
   author={Han, Minghao and Jiang, Shiyin and Li, Shengxi and Deng, Xin and Xu, Mai and Zhu, Ce and Gu, Shuhang},
-  journal={arXiv preprint arXiv:2410.04847},
-  year={2024}
+  journal={Advances in Neural Information Processing Systems},
+  volume={37},
+  pages={133231--133253},
+  year={2025}
 }
 ```
 
